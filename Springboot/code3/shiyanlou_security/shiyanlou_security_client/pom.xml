@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.shiyanlou</groupId>
+    <artifactId>shiyanlou_security</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.shiyanlou</groupId>
+  <artifactId>shiyanlou_security_client</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>shiyanlou_security_client</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+
+    <dependency>
+      <groupId>com.shiyanlou</groupId>
+      <artifactId>shiyanlou_security_core</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+
+<!--  <build>-->
+<!--    &lt;!&ndash;源码包&ndash;&gt;-->
+<!--    <sourceDirectory>src/main/java</sourceDirectory>-->
+<!--    &lt;!&ndash;项目名称&ndash;&gt;-->
+<!--    <finalName>${project.artifactId}</finalName>-->
+
+<!--    &lt;!&ndash;使用maven插件指定jdk版本、编码&ndash;&gt;-->
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-compiler-plugin</artifactId>-->
+<!--        <configuration>-->
+<!--          <source>${java.version}</source>-->
+<!--          <target>${java.version}</target>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
+
+<!--      &lt;!&ndash;spring boot打包插件&ndash;&gt;-->
+<!--      <plugin>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--        <configuration>-->
+<!--          <mainClass>com.shiyanlou.ClientApplication</mainClass>-->
+<!--        </configuration>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <goals>-->
+<!--              <goal>repackage</goal>-->
+<!--            </goals>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
+
+<!--    </plugins>-->
+
+<!--  </build>-->
+
+</project>

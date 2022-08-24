@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.shiyanlou.core.properties.SecurityProperties",
+      "name": "shiyanlou.security",
+      "type": "com.shiyanlou.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.shiyanlou.core.properties.SecurityProperties",
+      "name": "shiyanlou.security.authentication-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.shiyanlou.core.properties.SecurityProperties",
+      "name": "shiyanlou.security.login-processing-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.shiyanlou.core.properties.SecurityProperties",
+      "name": "shiyanlou.security.login-type",
+      "type": "com.shiyanlou.core.properties.LoginResponseType"
+    }
+  ]
+}

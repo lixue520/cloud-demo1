@@ -1,0 +1,17 @@
+ nav{  
+/* 默认整体向右移动250px */
+    display: inline-block;
+    /* border-color: cadetblue; */
+    text-align: center;
+    position: relative;
+    left: 250px;  
+    background-color: brown; 
+}
+
+#mod {
+    border-color: red;
+    background-color: blueviolet;
+    margin-top: 100px;
+}
+
+
